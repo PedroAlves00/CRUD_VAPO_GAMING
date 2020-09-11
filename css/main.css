@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+	margin: 50px auto;
+	padding: 0 50px;
+  width: 20%;
+  padding: 0 10px;
+  }
+
+  .card img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+  }
+
+  .card .thumb-content {
+	padding: 15px;
+	
+}
+
+.card .btn:hover {
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	box-shadow: none;
+}
+
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsivo */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }

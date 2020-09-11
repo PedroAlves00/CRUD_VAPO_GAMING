@@ -1,0 +1,10 @@
+@import 'fonts.css';
+@import 'topnav.css';
+@import 'carousel.css';
+@import 'main.css';
+@import 'login.css';
+@import 'cadastro.css';
+@import 'carrinho.css';
+@import 'produto.css';
+@import 'tabela.css';
+/* Realiza os imports do CSS */
